@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    padding: 0;
+    boxsizing: border-box;
+    font-family: 'Poppins' , sans-serif;
+}
+
+.container{
+    width: 100%;
+    min-height: 100vh;
+    padding: 5%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: linear-gradient(rgba(178,132,190,0.5), rgba(178,132,190,0.5)), url("https://getwallpapers.com/wallpaper/full/d/1/b/465864.jpg");
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.search-bar{
+    width: 100%;
+    max-width: 700px;
+    display: flex;
+    align-items: center;
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 60px;
+    padding: 10px 20px;
+    backdrop-filter: blur(4px) saturate(180%);
+}
+
+.search-bar input{
+    background: transparent;
+    flex: 1;
+    border: 0;
+    outline: none;
+    padding: 24px 20px;
+    font-size: 20px;
+    text-align: right;
+    color: #674846;
+}
+
+::placeholder{
+    color: #674846;
+}
+
+.search-bar button img{
+    width: 50px;
+    border-radius: 50%;
+}
+
+.search-bar button{
+    border: 0;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    background: #cec8ef ;
+    cursor: pointer;
+}
+
+.about{
+    width: 100%;
+    min-height: 100vh;
+    padding: 5%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: linear-gradient(rgba(178,132,190,0.5), rgba(178,132,190,0.5)), url("https://getwallpapers.com/wallpaper/full/d/1/b/465864.jpg");
+    display: flex;
+}
+
+.top-align {
+    vertical-align: top;
+    }
+    
+.center-align {
+    vertical-align: middle;
+    }
